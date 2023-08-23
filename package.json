@@ -1,0 +1,36 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@types/node": "^18",
+    "autoprefixer": "^10.4.14",
+    "nuxt": "^3.6.1",
+    "postcss": "^8.4.25",
+    "tailwindcss": "^3.3.2"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.4.11",
+    "@trevoreyre/autocomplete-vue": "^2.4.1",
+    "@vuelidate/core": "^2.0.3",
+    "@vuelidate/validators": "^2.0.3",
+    "axios": "^1.4.0",
+    "chart.js": "^3.9.1",
+    "js-cookie": "^3.0.5",
+    "pinia": "^2.1.4",
+    "usemodal-vue3": "^0.3.7",
+    "vue-chart-3": "^3.1.8",
+    "vue-toast-notification": "^3.1.1",
+    "vue3-carousel": "^0.3.1",
+    "vue3-circle-progress": "^1.0.7",
+    "vue3-otp-input": "^0.4.1",
+    "vue3-tailwind-modal": "^1.0.0"
+  }
+}
